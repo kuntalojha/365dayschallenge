@@ -1,23 +1,60 @@
 // Created by KUNTAL OJHA .
-// Today 23/08/2022 (dd/mm/yyyy)
-// Problem Link: https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem?isFullScreen=true
-// Problem Title:  Java Stdin and Stdout I.
+// Today 14/09/2022 (dd/mm/yyyy)
+// Problem Link: https://www.hackerrank.com/challenges/java-date-and-time/problem
+// Problem Title:  Java Date and Time.
 
 import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
 import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+import java.time.LocalDate;
+
+class Result {
+
+    /*
+     * Complete the 'findDay' function below.
+     *
+     * The function is expected to return a STRING.
+     * The function accepts following parameters:
+     *  1. INTEGER month
+     *  2. INTEGER day
+     *  3. INTEGER year
+     */
+
+    public static String findDay(int month, int day, int year) {
+        LocalDate Kuntal = LocalDate.of(year,month,day);
+        return Kuntal.getDayOfWeek().toString();
+
+    }
+
+}
 
 public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner kuntal = new Scanner (System.in);
-        int m = kuntal.nextInt();
-        int n = kuntal.nextInt();
-        int o = kuntal.nextInt();
+        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
-        System.out.println(m);
-        System.out.println(n);
-        System.out.println(o);
+        int month = Integer.parseInt(firstMultipleInput[0]);
 
+        int day = Integer.parseInt(firstMultipleInput[1]);
+
+        int year = Integer.parseInt(firstMultipleInput[2]);
+
+        String res = Result.findDay(month, day, year);
+
+        bufferedWriter.write(res);
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
     }
 }
