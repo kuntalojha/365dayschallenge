@@ -1,12 +1,12 @@
 // Created by KUNTAL OJHA .
 // Today 11/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Problem Link: https://www.codechef.com/problems/LAZYCHF
+// Problem Title: Lazy Chef
 // Programmng Language: C++
 
 
 
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -15,16 +15,17 @@ int main() {
 	cin>>t;
 	while(t--)
 	{
-	    int x;
-	    cin>>x;
-	    if(67<=x && x<=45000)
+	    int x,m,d;
+	    cin>>x>>m>>d;
+	    
+	    if(m*x >= x+d)
 	    {
-	        cout<<"YES"<<endl;
-	    }
-	    else 
+	        cout<<x+d<<endl;
+	    }else
 	    {
-	        cout<<"NO"<<endl;
+	        cout<<m*x<<endl;
 	    }
 	}
 	return 0;
 }
+
