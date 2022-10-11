@@ -1,7 +1,10 @@
 // Created by KUNTAL OJHA .
-// Today 23/08/2022 (dd/mm/yyyy)
-// Problem Link: https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem?isFullScreen=true
-// Problem Title:  Java Stdin and Stdout I.
+// Today 11/10/2022 (dd/mm/yyyy)
+// Problem Link: 
+// Problem Title: 
+// Programmng Language: JAVA
+
+
 
 import java.io.*;
 import java.util.*;
