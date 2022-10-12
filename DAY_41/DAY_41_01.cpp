@@ -1,12 +1,12 @@
 // Created by KUNTAL OJHA .
 // Today 12/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Problem Link: https://www.codechef.com/problems/TAXES
+// Problem Title: Tax in Chefland
 // Programmng Language: C++
 
 
 
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -17,14 +17,13 @@ int main() {
 	{
 	    int x;
 	    cin>>x;
-	    if(67<=x && x<=45000)
+	    if(x<=100)
 	    {
-	        cout<<"YES"<<endl;
-	    }
-	    else 
-	    {
-	        cout<<"NO"<<endl;
+	        cout<<x<<endl;
+	    }else {
+	        cout<<x-10<<endl;
 	    }
 	}
 	return 0;
 }
+
