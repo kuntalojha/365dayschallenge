@@ -1,12 +1,11 @@
 // Created by KUNTAL OJHA .
 // Today 12/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Problem Link: https://www.codechef.com/submit/EXPERT
+// Problem Title: Expert Setter
 // Programmng Language: C++
 
 
-
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -15,16 +14,17 @@ int main() {
 	cin>>t;
 	while(t--)
 	{
-	    int x;
-	    cin>>x;
-	    if(67<=x && x<=45000)
+	    float y,x;
+	    cin>>y>>x;
+	    
+	    if( ((x/y)*100) >= 50)
 	    {
 	        cout<<"YES"<<endl;
-	    }
-	    else 
+	    }else
 	    {
 	        cout<<"NO"<<endl;
 	    }
 	}
 	return 0;
 }
+
