@@ -1,5 +1,5 @@
 // Created by KUNTAL OJHA .
-// Today 12/10/2022 (dd/mm/yyyy)
+// Today 13/10/2022 (dd/mm/yyyy)
 // Problem Link: https://www.codechef.com/submit/DISCNT
 // Problem Title: Discounte:
 // Programmng Language: JAVA
