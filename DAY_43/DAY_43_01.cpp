@@ -1,14 +1,13 @@
 // Created by KUNTAL OJHA .
 // Today 12/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Problem Link: https://www.codechef.com/submit/DISCNT
+// Problem Title: Discount
 // Programmng Language: C++
 
 
 
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-
 int main() {
 	// your code goes here
 	int t;
@@ -17,14 +16,10 @@ int main() {
 	{
 	    int x;
 	    cin>>x;
-	    if(67<=x && x<=45000)
-	    {
-	        cout<<"YES"<<endl;
-	    }
-	    else 
-	    {
-	        cout<<"NO"<<endl;
-	    }
+	    
+	    cout<<100-x<<endl;
 	}
 	return 0;
 }
+
+
