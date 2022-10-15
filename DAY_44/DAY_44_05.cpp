@@ -1,7 +1,7 @@
 // Created by KUNTAL OJHA .
 // Today 14/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Problem Link: https://www.codechef.com/submit/MAXIMUMSUBS
+// Problem Title: Maximum Submissions
 // Programmng Language: C++
 
 
@@ -15,11 +15,13 @@ int main() {
 	cin>>t;
 	while(t--)
 	{
-	    int x,p,q;
-	    cin>>x>>p>>q;
-	    
-	    cout<<(p-q)*x<<endl;
+	    int x;
+	    cin>>x;
+	    x=(x*60);
+	    cout<<x/30<<endl;
 	}
 	return 0;
 }
+
+
 

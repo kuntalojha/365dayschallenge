@@ -1,7 +1,7 @@
 // Created by KUNTAL OJHA .
 // Today 14/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Problem Link: https://www.codechef.com/submit/AIANALYSE
+// Problem Title: AI Analysing Code
 // Programmng Language: C++
 
 
@@ -11,15 +11,20 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int t;
-	cin>>t;
-	while(t--)
+	int c;
+	cin>>c;
+	
+	if(c<=1000)
 	{
-	    int x,p,q;
-	    cin>>x>>p>>q;
-	    
-	    cout<<(p-q)*x<<endl;
+	    cout<<"YES"<<endl;
+	}else
+	{
+	    cout<<"NO"<<endl;
 	}
+	
 	return 0;
 }
+
+
+
 

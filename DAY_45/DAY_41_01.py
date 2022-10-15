@@ -1,8 +1,8 @@
-// Created by KUNTAL OJHA .
-// Today 12/10/2022 (dd/mm/yyyy)
-// Problem Link:
-// Problem Title:
-// Programmng Language: PYTHON
+# Created by KUNTAL OJHA .
+# Today 14/10/2022 (dd/mm/yyyy)
+# Problem Link:
+# Problem Title:
+# Programmng Language: PYTHON
 
   
   

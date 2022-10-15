@@ -1,7 +1,7 @@
 // Created by KUNTAL OJHA .
 // Today 14/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Problem Link: https://www.codechef.com/submit/TCKTFINE
+// Problem Title: Ticket Fine
 // Programmng Language: C++
 
 
