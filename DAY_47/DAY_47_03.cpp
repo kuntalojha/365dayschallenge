@@ -1,12 +1,12 @@
 // Created by KUNTAL OJHA .
-// Today 12/10/2022 (dd/mm/yyyy)
-// Problem Link: 
-// Problem Title:
+// Today 18/10/2022 (dd/mm/yyyy)
+// Problem Link: https://www.codechef.com/problems/JENGA
+// Problem Title: Jenga Night
 // Programmng Language: C++
 
 
 
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -15,16 +15,17 @@ int main() {
 	cin>>t;
 	while(t--)
 	{
-	    int x;
-	    cin>>x;
-	    if(67<=x && x<=45000)
+	    int n,x;
+	    cin>>n>>x;
+	    
+	    if(n<=x && x%n==0)
 	    {
 	        cout<<"YES"<<endl;
-	    }
-	    else 
+	    }else
 	    {
 	        cout<<"NO"<<endl;
 	    }
+	    
 	}
 	return 0;
 }
